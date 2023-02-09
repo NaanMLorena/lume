@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Saira Condensed', sans-serif;
+	color: #d7d4de;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+	background-color: #10192a;
+}
+
+
+/* CONFIG DO EFEITO PARALLAX */
+
+.container {
+    width: 100%;
+}
+
+section.module p {
+	max-width: 1741px;
+	font-size: 32px;
+    font-weight: lighter;
+}
+
+section.module h2 {
+    margin-bottom: 25px;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+section.module.content {
+	background-color: #10192a;
+	padding-inline: 71px;
+	padding-block: 111px;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax-1 {
+    height: 93vh !important;
+}
+
+/* section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+} */
+
+section.module.parallax-1 {
+    background-image: url(/wallpapers/wallpaper-01.2.png);
+}
+
+section.module.parallax-2 {
+    background-image: url(/wallpapers/wallpaper02.png);
+}
+
+section.module.parallax-3 {
+    background-image: url(/wallpapers/wallpaper03.png);
+}
+
+section.module.parallax h1 {
+    justify-content: center;
+    text-align: center;
+	font-size: 184px;
+    z-index: 50;
+	font-weight: bolder;
+	background-color: #10192a;
+    margin-inline: 690px;
+    padding-block: 50px;
+}
+
+
+/* NAVBAR */
+
+section.module.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    max-width: 100%;
+    padding-inline: 20px;
+}
+
+.nav-item {
+    color: #d7d4de;
+}
+
+.menu-icon{
+    width: 50px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+
+.container-2 {
+    justify-content: right;
+}
+
+.nav-content {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+section.module.footer {
+	background-color: #10192a;
+	padding-inline: 71px;
+	padding-top: 93px;
+    padding-bottom: 24px;
+}
+
+section.container.footer-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 300px;
+    padding-bottom: 100px;
+}
+
+.footer-content {
+    display: block;
+}
+
+section.container.footer-bottom {
+    text-align: center;
+    justify-content: center;
+}
+
+.img-end {
+    width: 368px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+* {
+	font-family: 'Chivo Mono', monospace;
+	color: #d7d4de;
+}
+
+.navbar {
+	height: 96px;
+}
+
+.main-txt {
+	font-size: 184px;
+	font-weight: bold;
+	background-color: #10192a;
+	padding-block: 65px;
+	padding-inline: 39px;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
+	align-itens: center;
+}
+
+.txt-h1 {
+	font-size: 34px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.txt-p {
+	max-width: 1741px;
+	font-size: 32px;
+}
+
+.tabela {
+	height: 646px;
+	padding-inline: 71px;
+	padding-block: 111px;
+}
