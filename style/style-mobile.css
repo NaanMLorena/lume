@@ -1,0 +1,40 @@
+@media (max-width: 1080px) {
+
+section.module.parallax-1 {
+    background-image: url(/wallpapers/1.png);
+}
+
+section.module.parallax-2 {
+    background-image: url(/wallpapers/2.png);
+}
+
+section.module.parallax-3 {
+    background-image: url(/wallpapers/3.png);
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    
+section.module.parallax h1 {
+    justify-content: center;
+    text-align: center;
+    font-size: 103px;
+    z-index: 50;
+    font-weight: bolder;
+    background-color: #10192a;
+    margin-inline: 395px;
+    padding-block: 50px;
+}
+
+}

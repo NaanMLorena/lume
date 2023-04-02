@@ -3,8 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-	font-family: 'Saira Condensed', sans-serif;
-	color: #d7d4de;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #d7d4de;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-    display: block;
-	background-color: #10192a;
+    display: flex;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
 }
 
 
@@ -46,8 +46,8 @@ main {
 }
 
 section.module p {
-	max-width: 1741px;
-	font-size: 32px;
+    max-width: 1741px;
+    font-size: 32px;
     font-weight: lighter;
 }
 
@@ -58,9 +58,9 @@ section.module h2 {
 }
 
 section.module.content {
-	background-color: #10192a;
-	padding-inline: 71px;
-	padding-block: 111px;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
+    padding-inline: 71px;
+    padding-block: 111px;
 }
 
 section.module.parallax {
@@ -91,7 +91,7 @@ section.module.parallax-1 {
 } */
 
 section.module.parallax-1 {
-    background-image: url(/wallpapers/wallpaper-01.2.png);
+    background-image: url(https://images.hdqwalls.com/download/night-mountains-minimalist-8k-wo-1920x1080.jpg);
 }
 
 section.module.parallax-2 {
@@ -105,10 +105,11 @@ section.module.parallax-3 {
 section.module.parallax h1 {
     justify-content: center;
     text-align: center;
-	font-size: 184px;
+    font-size: 184px;
     z-index: 50;
-	font-weight: bolder;
-	background-color: #10192a;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
+    border-radius: 52px;
     margin-inline: 690px;
     padding-block: 50px;
 }
@@ -125,6 +126,7 @@ section.module.navbar {
     height: 7vh;
     max-width: 100%;
     padding-inline: 20px;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
 }
 
 .nav-item {
@@ -133,9 +135,11 @@ section.module.navbar {
 
 .menu-icon {
     height: 50px;
+    margin: 10px;
 }
 
 .menu-logo {
+    align-items: center;
     height: 7vh;
 }
 
@@ -177,8 +181,10 @@ section.module.navbar {
     display: block;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn:hover {
-    color: rgb(251, 255, 0);
+.navbar a:hover,
+.dropdown:hover .dropbtn:hover {
+    color: #827C91;
+    transition: 0.4s;
 }
 
 .dropdown-content {
@@ -186,9 +192,9 @@ section.module.navbar {
     position: absolute;
     padding-inline: 7px;
     font-size: 20px;
-    background-color: #10192a;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #131e33;
     z-index: 1;
+    border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -217,9 +223,9 @@ section.module.navbar {
 /* FOOTER */
 
 section.module.footer {
-	background-color: #10192a;
-	padding-inline: 71px;
-	padding-top: 93px;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
+    padding-inline: 71px;
+    padding-top: 93px;
     padding-bottom: 24px;
 }
 

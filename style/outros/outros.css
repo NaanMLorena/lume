@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #d7d4de;
+    background-image: url(https://images.hdqwalls.com/download/night-mountains-minimalist-8k-wo-1920x1080.jpg);
+    background-size: cover;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+
+/* SCROLLBAR */
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #10192a;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d7d4de;
+    border-radius: 0.5rem;
+}
+
+
+/* CONFIG GERAL */
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #d7d4de;
+}
+
+
+/* NAVBAR */
+
+section.module.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
+    margin-bottom: 3%;
+    max-width: 100%;
+    padding-inline: 20px;
+}
+
+.nav-item {
+    color: #d7d4de;
+}
+
+.menu-icon {
+    height: 50px;
+    margin: 10px;
+}
+
+.menu-logo {
+    height: 7vh;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+
+.container-2 {
+    justify-content: right;
+}
+
+.nav-content {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+/* DROPDOWN */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    margin: none;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display: block;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn:hover {
+    color: #827C91;
+    transition: 0.4s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding-inline: 7px;
+    font-size: 20px;
+    background-color: #131e33;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    float: none;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+/* .dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.479);
+  } */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.align-drop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* CAIXAS DE ITENS */
+
+
+.itensbox {
+    display: flex;
+    justify-content: center;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(45, 70, 117, 1) 0%, rgba(16, 25, 42, 1) 56.7416%, rgba(20, 32, 54, 1) 86.5168%, rgba(19, 30, 51, 1) 100%);
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #DDDCF5;
+    transition: 0.4s;
+}
+
+div.box a:hover {
+    color: #827C91;
+}
