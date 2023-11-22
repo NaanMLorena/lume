@@ -44,5 +44,4 @@
  - **[Naan Moreira Lorena](https://github.com/NaanMLorena)**
  - **[Arthur Pinto de Moraes Silva](https://github.com/2005Apms)**
  - **[Luís Felippe Guimarães Pinheiro](https://github.com/LFppGP)**
- - **[Ryan Gomes Marques Romão](https://github.com/RRyanDEV)**
  - **[Leonardo Queiroz Silva](https://github.com/Lqsilva)**
