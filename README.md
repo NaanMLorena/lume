@@ -1,7 +1,7 @@
-<img src="/logos/lume_logo(dark).jpg">
+<img src="/img/logos/lume_logo(dark).jpg">
 
 
-<h6 align="center">Version: 0.0.2</h6>
+<h6 align="center">Version: 0.0.4</h6>
 
 
 <h6>Estado do projeto: Incompleto</h6>
@@ -35,7 +35,7 @@
 
 ### Wireframe
 
-<img src="/readme/wireframes/wireframe_PC(dark).png">
+<img src="/readmedocs/wireframes/wireframe_PC(dark).png">
 
 <hr>
 
@@ -45,3 +45,5 @@
  - **[Arthur Pinto de Moraes Silva](https://github.com/2005Apms)**
  - **[Luís Felippe Guimarães Pinheiro](https://github.com/LFppGP)**
  - **[Leonardo Queiroz Silva](https://github.com/Lqsilva)**
+ - **[Anne Carolini Santos da Silva]()**
+ - **[Aline Monsores Andre]()**

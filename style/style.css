@@ -95,11 +95,11 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-2 {
-    background-image: url(/wallpapers/wallpaper02.png);
+    background-image: url(/img/wallpapers/wallpaper02.png);
 }
 
 section.module.parallax-3 {
-    background-image: url(/wallpapers/wallpaper03.png);
+    background-image: url(/img/wallpapers/wallpaper03.png);
 }
 
 section.module.parallax h1 {
@@ -151,7 +151,6 @@ section.module.navbar {
     width: 100%;
     gap: 50px;
 }
-
 
 .container-2 {
     justify-content: right;
